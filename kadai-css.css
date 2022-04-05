@@ -9,26 +9,46 @@ body {
 /* チャプター：ヘッダー */
 header {
     width: 100%;
+    height: auto;
     background-color: #ffcccc
+}
+
+header {
+    font-size: 1rem;
 }
 
 /*中左側*/
 #main {
     width: 70%;
-    height: 480px;
+    height: 500px;
     float: left;
     background-color: #ccffcc
 }
 
+#main {
+    font-size: 1rem;
+    display:table-cell;
+}
 /*中右*/
 #menu {
     width: 30%;
-    height: 480px;
+    height: 500px;
     float: right;
     background-color: #ccccff
 }
+
+#menu {
+    font-size: 1rem;
+    display:table-cell;
+}
+
 /*フッター*/
 footer {
     width: 100%;
+    height: auto;
     background-color: #ffccff
+}
+
+footer {
+    font-size: 1rem;
 }

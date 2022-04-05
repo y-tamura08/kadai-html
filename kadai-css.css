@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*ヘッダー*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* チャプター：ヘッダー */
+header {
+    width: 100%;
+    background-color: #ffcccc
+}
+
+/*中左側*/
+#main {
+    width: 70%;
+    height: 480px;
+    float: left;
+    background-color: #ccffcc
+}
+
+/*中右*/
+#menu {
+    width: 30%;
+    height: 480px;
+    float: right;
+    background-color: #ccccff
+}
+/*フッター*/
+footer {
+    width: 100%;
+    background-color: #ffccff
+}

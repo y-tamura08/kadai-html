@@ -12,21 +12,17 @@ header {
     background-color: #ccffcc
 }
 
-#main {
+#wrapper {
+    width: 1000px;
     display: flex;
-    display:table-cell;
 }
 
 /*中右*/
 #menu {
     width: 300px;
-    
     background-color: #ccccff
 }
 
-#menu {
-    display:table-cell;
-}
 
 /*フッター*/
 footer {

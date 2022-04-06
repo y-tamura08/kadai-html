@@ -1,54 +1,35 @@
 @charset "UTF-8";
 
-/*ヘッダー*/
-body {
-    margin: 0;
-    padding: 0;
-}
-
 /* チャプター：ヘッダー */
 header {
-    width: 100%;
-    height: auto;
+    width: 1000px;
     background-color: #ffcccc
-}
-
-header {
-    font-size: 1rem;
 }
 
 /*中左側*/
 #main {
-    width: 70%;
-    height: 500px;
-    float: left;
+    width: 700px;
     background-color: #ccffcc
 }
 
 #main {
-    font-size: 1rem;
+    display: flex;
     display:table-cell;
 }
+
 /*中右*/
 #menu {
-    width: 30%;
-    height: 500px;
-    float: right;
+    width: 300px;
+    
     background-color: #ccccff
 }
 
 #menu {
-    font-size: 1rem;
     display:table-cell;
 }
 
 /*フッター*/
 footer {
-    width: 100%;
-    height: auto;
+    width: 1000px;
     background-color: #ffccff
-}
-
-footer {
-    font-size: 1rem;
 }
